@@ -1,0 +1,16 @@
+@import '../../styles/app.scss';
+
+.tables-basic {
+  .table th {
+    font-size: $font-size-sm;
+  }
+
+  .abc-checkbox label {
+    &::before {
+      background-color: transparent;
+    }
+    &::after {
+      color: #eee;
+    }
+  }
+}
